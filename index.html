@@ -147,13 +147,24 @@
     </header>
     <main class="md:container md:mx-auto">
         <!-- featured bike -->
-        <section>
-
+        <section class="my-24">
+            <h2 class="text-5xl mb-12 font-semibold text-center">Featured Bikes In This Year</h2>
+            <div class="grid gap-40 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <figure class="px-10 pt-10">
+                    <img src="/images/others/feature-bike.png" alt="Shoes" class="flex-col-1" />
+                </figure>
+                <figure class="px-10 pt-10">
+                    <img src="/images/others/feature-bike.png" alt="Shoes" class="flex-col" />
+                </figure>
+                <figure class="px-10 pt-10">
+                    <img src="/images/others/feature-bike.png" alt="Shoes" class="" />
+                </figure>
+                </div>
         </section>
         <!-- latest section -->
         <section class="my-24">
             <h2 class="text-5xl mb-12 font-semibold text-center">Latest Bikes</h2>
-            <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div class="grid gap-40 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <!-- first card -->
                 <div class="card w-96 bg-base-100 shadow-xl">
                     <figure><img src="/images/others/latest1.png" alt="Shoes" /></figure>
@@ -199,7 +210,7 @@
             <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <!-- first review -->
                 <div class="card bg-base-100 p-9 border border-grey-400">
-                    <figure><img class="w-36" src="/images/others/user-1.png" alt="Shoes" /></figure>
+                    <figure><img class="w-36" src="/images/others/user-1.png" alt="" /></figure>
                     <div class="card-body">
                         <p>Slate helps you see how
                             many more days you need
@@ -322,21 +333,33 @@
             </div>
         </section>
     </main>
-    <footer class="footer p-10 bg-neutral text-neutral-content">
-        <div>
-            <p>Download Now</p>
-            <p>Download Now</p>
+    <footer class="footer p-10 bg-neutral justify-items-center text-neutral-content md:container md:mx-auto">
+        <div class="">
+            <ul class="menu menu-horizontal text-base lg:flex md:grid">
+                    <li><a>About</a></li>
+                    <li><a>Features</a></li>
+                </ul>
+            <div class="navbar-center lg:flex md:grid">
+                <ul class="menu menu-horizontal text-base ">
+                    <li><a>About</a></li>
+                    <li><a>Features</a></li>
+                    <li><a>Pricing</a></li>
+                    <li><a>Careers</a></li>
+                    <li><a>Help</a></li>
+                    <li><a>Privacy Policy</a></li>
+                </ul>
+            </div>
+            <h1 class="menu menu-horizontal text-base pl-5">© 2020 bike. All rights reserved</h1>
         </div>
         <div>
-            <span class="footer-title">Get the App</span>
+            <span class="footer-title px-1">Get the App</span>
             <div class="grid grid-cols-1 gap-4">
                 <a><img class="w-36" src="images/others/android.png" alt=""></a>
                 <a><img class="w-36" src="images/others/ios.png" alt=""></a>
-            
-
             </div>
         </div>
-    </footer>
+      </footer>
+    
 </body>
 
 </html>
